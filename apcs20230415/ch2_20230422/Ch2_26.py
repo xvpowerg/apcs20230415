@@ -1,0 +1,9 @@
+a = "Hello"
+b = 'World'
+#小寫 > 大寫
+print(a == b)
+print(a != b)
+print(a > b)
+print(a >= b)
+print(a < b)
+print(a <= b)
