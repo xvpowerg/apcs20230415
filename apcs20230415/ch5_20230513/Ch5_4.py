@@ -1,0 +1,12 @@
+car =['honda',"BMW","Toyota","audi"]
+print(car)
+car.sort()
+print(car)
+car.sort(reverse = True)
+print(car)
+car.sort(key=len)
+print(car)
+car.sort(key=lambda v:(v.upper(),v))
+print(car)
+car.sort(key=str.upper)
+print(car)
